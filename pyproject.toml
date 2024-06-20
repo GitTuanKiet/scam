@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "scam"
+version = "0.1.0"
+description = ""
+authors = ["nhom7"]
+readme = "README.md"
+packages = [{include = "scam-django"}]
+
+[tool.poetry.dependencies]
+psycopg = "^3.1.19"
+python = "^3.10"
+django = "^4.2.4"
+paypal = "^1.2.5"
+django-paypal = "^2.1"
+six= "^1.16.0"
+pillow = "^10.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
