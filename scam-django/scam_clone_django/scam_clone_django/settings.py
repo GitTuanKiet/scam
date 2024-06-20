@@ -160,7 +160,7 @@ AUTH_USER_MODEL = 'users.User'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-PAYPAL_RECEIVER_EMAIL = 'sb-mclg826189614@business.example.com'
+PAYPAL_RECEIVER_EMAIL = ''
 PAYPAL_TEST = True
 PAYPAL_BUY_BUTTON_IMAGE = '/static/ImageData/paypalButton.png'
 
@@ -169,10 +169,10 @@ LOGIN_REDIRECT_URL = 'pages:home'
 
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_FROM = 'mazenyasser225@gmail.com'
-EMAIL_HOST_USER = 'mazenyasser225@gmail.com'
-EMAIL_HOST_PASSWORD = 'vmqqzylyfaphyqfu'
+EMAIL_HOST = ''
+EMAIL_FROM = ''
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
